@@ -1,2 +1,5 @@
 # AppleVision
-The main goal of the project is to develop a deep learning-based approach to apple detection, localization, and tracking. The artificial intelligence-based software model can recognize and track the apples on a tree and estimate the depth of the apples from the drone.
+Performed the data augmentation, pre-processing, and filtering techniques on the dataset. Techniques like image rotation, image mirroring, increasing and decreasing the brightness of images, and applying noise on a few images were done to train the model with all possible distractions to train a robust model.
+	YOLOv5 and YOLOv7 have so far resulted as the best algorithms, and after applying the attribute augmentation, adaptive pooling, and multi-head attention mechanisms with focal loss function, the efficient model was built using Python code.
+ A novel model architecture is developed, integrating a multi-head attention mechanism along with YOLOv7 to find the depth of the apples. The model is then extended by implementing the ByteTrack algorithm to track and count each detected apple without redundancy in the apple count.
+  The so-built model is then tested on different datasets to assess the results in comparison with other techniques.
